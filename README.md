@@ -2,6 +2,18 @@
 
 Calculate and visualize the finances of buying a home on the Swedish market — as a website and as an installable phone app (Android and /e/OS).
 
+OBS - This project is AI written, idea and prompter is me (my own calculations from excel) - OBS
+
+Try it yourself here: https://hedstrommen.github.io/House-Buying-Helper/
+
+# How it looks like
+
+<img width="984" height="718" alt="image" src="https://github.com/user-attachments/assets/a8c1151b-f1bf-44d0-8427-6ad678800419" />
+<img width="978" height="507" alt="image" src="https://github.com/user-attachments/assets/487bf189-4015-4ebe-9462-d619a7f0d462" />
+<img width="986" height="738" alt="image" src="https://github.com/user-attachments/assets/1405f03e-b4d3-456f-985b-13b125210cd5" />
+<img width="1017" height="530" alt="image" src="https://github.com/user-attachments/assets/dd2813c1-5d44-4c4f-9f23-a4399b31f987" />
+
+
 ## Features
 
 - House price, loan amount, and down payment (kontantinsats) with adjustable percentage
@@ -15,42 +27,6 @@ Calculate and visualize the finances of buying a home on the Swedish market — 
 - Net sale value (house value minus remaining loan) per year
 - Graphs and a full year-by-year table of every number over the loan's lifetime
 - Swedish and English UI
-
-## Run locally
-
-```bash
-npm install
-npm run dev
-```
-
-## Build for web (PWA)
-
-```bash
-npm run build
-npm run preview
-```
-
-The build output in `dist/` is a Progressive Web App: served over HTTPS, users can "Add to home screen" and it works offline.
-
-## Build the Android APK
-
-Prerequisites: Android Studio (or the Android SDK) and JDK 17+.
-
-```bash
-npm run build
-npx cap sync android
-npx cap open android   # then Build > Build APK(s) in Android Studio
-```
-
-Or from the command line:
-
-```bash
-cd android
-./gradlew assembleDebug
-# APK at android/app/build/outputs/apk/debug/app-debug.apk
-```
-
-For /e/OS, distribute the APK via [F-Droid](https://f-droid.org) or install it directly.
 
 ## Project layout
 
