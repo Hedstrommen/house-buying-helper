@@ -1,10 +1,11 @@
 # Bostadsköpshjälpen / House Buying Helper
 
-Calculate and visualize the finances of buying a home on the Swedish market — as a website and as an installable phone app (Android and /e/OS).
+Calculate and visualize the finances of buying a home on the Swedish market
 
     OBS - This project is AI written, idea and prompter is me (my own calculations from excel) - OBS
 
-    Try it yourself here: https://hedstrommen.github.io/house-buying-helper/
+# Try it yourself!
+    https://hedstrommen.github.io/house-buying-helper/
 
 # How it looks like
 
